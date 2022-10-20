@@ -10,7 +10,7 @@ const { color, bgcolor } = require('./lib/color')
 const { uncache, nocache } = require('./lib/loader')
 const { state } = useSingleFileAuthState(`./kayla.json`)
 const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
-const { yt-search } =require('../dist/yt-search.js')
+const { ytsearch } =require('../dist/yt-search.js')
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep, reSize } = require('./lib/myfunc')
 
 const owner = JSON.parse(fs.readFileSync('./database/owner.json').toString())
